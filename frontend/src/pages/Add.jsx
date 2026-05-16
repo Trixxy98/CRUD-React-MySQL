@@ -48,7 +48,7 @@ const Add = () => {
             <input type="text" placeholder="Title" onChange={handleChange} name="title" />
             <input type="text" placeholder="Description" onChange={handleChange} name="decs" />
             <input type="text" placeholder="Cover" onChange={handleChange} name="cover" />
-            <button onClick={handleClick}>Add</button>
+            <button className="formButton" onClick={handleClick}>Add</button>
         </div>
     )
 }

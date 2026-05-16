@@ -44,3 +44,24 @@ img {
     border: 1px solid rgb(147, 219, 245);
     color: rgb(64, 169, 255);
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton {
+    border: none;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}   
